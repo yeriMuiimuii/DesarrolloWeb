@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.left{
+    background-color: blueviolet;
+    padding: 20px;
+    float: left;
+    width: 20%;
+    color:white;
+    text-align:left;
+}
+.main{
+    text-align: center;
+    background-color: blueviolet;
+    padding: 20px;
+    float: left;
+    width: 20%;
+    color:white;
+    
+}
+.rigth{
+    text-align:right;
+    background-color: rgb(242, 7, 152);
+    padding: 20px;
+    float: left;
+    width: 20%;
+    color:white;
+
+}
+@media screen (max-width:660px){
+    .main
+    
+}
+@media screen and (max-width:120px) {
+    .left
+    .main
+    .rigth
+    max-width:50px;
+
+
+    
+}

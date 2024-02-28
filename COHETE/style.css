@@ -1,0 +1,70 @@
+
+/* Estilo para el contenedor */
+.container {
+  width: 100px; /* Ancho del contenedor */
+  height: 200px; /* Alto del contenedor */
+  position: relative; /* Posición relativa para los elementos hijos */
+  margin: 100px auto; /* Margen superior e inferior de 100px y centrado horizontal */
+}
+
+/* Estilo para el cuerpo del cohete */
+.cuerpo {
+  width: 150px; /* Ancho del cuerpo del cohete */
+  height: 200px; /* Alto del cuerpo del cohete */
+  background-color: #450bcd; /* Color de fondo */
+  border-radius: 50% 50% 0 0; /* Borde redondeado */
+  border-color:black; /* Color del borde */
+}
+
+/* Estilo para la ventana del cohete */
+.ventana {
+  width: 55px; /* Ancho de la ventana */
+  height: 40px; /* Alto de la ventana */
+  background-color: #fff; /* Color de fondo */
+  position: absolute; /* Posición absoluta dentro del contenedor */
+  top: 20px; /* Distancia desde arriba */
+  left: 50px; /* Distancia desde la izquierda */
+  border-radius: 50%; /* Borde redondeado */
+}
+
+/* Estilo para el fuego del cohete */
+.cohete-fuego {
+  width: 55px; /* Ancho del fuego */
+  height: 55px; /* Alto del fuego */
+  background-color: #FF6347; /* Color de fondo */
+  position: absolute; /* Posición absoluta dentro del contenedor */
+  bottom: -50px; /* Distancia desde abajo */
+  left: 45px; /* Distancia desde la izquierda */
+  border-radius: 50%; /* Borde redondeado */
+  margin-top: 500px; /* Margen superior */
+  animation: rocketFire 0.5s infinite alternate; /* Animación de fuego */
+}
+
+/* Estilo para la cola del cohete */
+.cohete-cola {
+  width: 0; /* Ancho de la cola */
+  height: 0; /* Alto de la cola */
+  border-left: 60px solid transparent; /* Borde izquierdo transparente */
+  border-right: 60px solid transparent; /* Borde derecho transparente */
+  border-top: 120px solid #450bcd; /* Borde superior de color */
+  position: absolute; /* Posición absoluta dentro del contenedor */
+  top: 150px; /* Distancia desde arriba */
+  left: 1px; /* Distancia desde la izquierda */
+  transform: rotate(63deg); /* Rotación de la cola */
+}
+
+/* Estilo general para imágenes */
+.imagen {
+  margin: 0; /* Margen cero */
+  padding: 0; /* Relleno cero */
+}
+
+/* Animación de fuego del cohete */
+@keyframes rocketFire {
+  0% {
+      transform: scale(1); /* Escala inicial */
+  }
+  100% {
+      transform: scale(1.2); /* Escala final */
+  }
+}
