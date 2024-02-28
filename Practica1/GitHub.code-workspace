@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "../../GitHub"
+		},
+		{
+			"path": "../AmongUs"
+		},
+		{
+			"path": "../ArtistaFav"
+		},
+		{
+			"path": "../COHETE"
+		},
+		{
+			"path": "../formulario"
+		},
+		{
+			"path": "../ParrafosLineas"
+		},
+		{
+			"path": "../Trabajo responsivas"
+		},
+		{
+			"path": "../Video"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "GitHub",
+		"liveServer.settings.port": 5502
+	}
+}
